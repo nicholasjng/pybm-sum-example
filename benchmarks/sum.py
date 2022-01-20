@@ -8,4 +8,4 @@ def f():
 
 
 if __name__ == "__main__":
-    pybm.run(context=globals())
+    pybm.run(module_context=globals())
